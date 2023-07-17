@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3611060072430460"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="./assets/img/icon.jpg" type="image/x-icon">
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    <title> RUPESH GONDRAWAR || Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/github-calendar-responsive.css" />
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">RUPESH GONDRAWAR..</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" title="Home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" title="About"
+                        class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" title="Skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" title="Project" class="nav__link">
+                            <i class='bx bxs-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item" title="Contact">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-detail'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item" title="Resume" onclick="runredirect()"">
+                        <a href="./assets/img/Rupesh Gondrawar.pdf" download target="_blank" class="nav__link">
+                        <i class='bx bx-cloud-download'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme Change Button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">👋Hello I'm</span>
+                    <h1 class="home__name">RUPESH GONDRAWAR</h1>
+                    <h3 class="home__education">Frontend Developer...</h3>
+
+                    <div class="home__buttons">
+
+                        <a href="./assets/img/Rupesh Gondrawar.pdf" download target="_blank">
+
+                            <button class="button button--ghost" onclick="runredirect()">
+                                <i class='bx bx-download'></i>
+                                <!-- <i class='bx bx dripicons-cloud-download'></i> -->
+                                My Resume
+
+                            </button>
+
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="./assets/img/coding-image.png" alt="" class="home__img">
+                </div>
+                <div class="home__social">
+                    <!-- telegram -->
+                    <a href="https://t.me/RGondrawar" title="Telegram" class="home__social-link" target="_blank">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                    <!-- telegram -->
+
+                    <!-- whatsapp -->
+                    <a href="https://wa.me/+919637170017" title="WhatsApp" class="home__social-link" target="_blank">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <!-- whatsapp -->
+
+                    <!-- linkedin -->
+                    <a href="https://www.linkedin.com/in/rupesh-gondrawar-10b91b23a/" class="home__social-link" title="LinkedIn"
+                        target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <!-- linkedin -->
+
+
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/rupesh_gondrawar" class="home__social-link" title="Instagram" target="_blank">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+
+                    <!-- instagram -->
+
+                    <!-- github -->
+                    <a href="https://github.com/rupeshgondrawar" class="home__social-link" title="GitHub" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <!-- github -->
+
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-down-arrow'></i>
+
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <!-- <span class="section__subtitle">My Intro</span> -->
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/profile_pic.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-award about__icon'></i>
+                            <h3 class="about__title">Eduaction</h3>
+                            <span class="about__subtitle">Bachelor of Engineering 2019</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">1000+ Hour's of Coding </span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">300 Hour's of DSA </span>
+                        </div>
+                        <!-- <div class="about__box">
+                            <i class='bx bx-current-location about__icon'></i>
+                              <i class="material-symbols:location-chip"></i> 
+                            <h3 class="about__title">Location</h3>
+                            <span class="about__subtitle">Nagpur, Maharashtra</span>
+                        </div>  -->
+                    </div>
+                    <p class="about__description">
+
+                        A passionate programmer with ability to learn quickly and implement and also versatile enough to
+                        learn and work in new
+                        environment. Currently looking for an opportunity to work for an organization where I can
+                        contribute my skills and manage key
+                        Projects that impact the organization, as well as broaden my scope of learning from the
+                        Organization's team Members.
+                    </p>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <!-- <span class="section__subtitle">My abilities</span> -->
+            <h2 class="section__title">My Skills</h2>
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development
+                    </h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                 <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <img src="https://img.icons8.com/color/20/000000/html-5--v1.png" />
+                                </div> 
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <img src="https://img.icons8.com/color/20/000000/css3.png" />
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <img src="./assets/img/js.jpg" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">React.Js/Redux</h3>
+                                    <img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" />
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Typescript</h3>
+                                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--RXS92V-v--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://miro.medium.com/max/1400/1%2AGh4eaAQU432ZQH7qsVbJ_A.png" />
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Data Structure and algoritham</h3>
+                                    <img src="https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo.png" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- tools here  -->
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Technical Tools
+                    </h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <!-- <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">STS</h3>
+                                    <img src="./assets/img/java.png" />
+                                </div>
+                            </div> -->
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">VS Code</h3>
+                                    <img src="./assets/img/vs-code.svg" />
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">CodeSandBox</h3>
+                                    <img src="data:image/png;base64,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" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Netlify</h3>
+                                    <img src="data:image/png;base64,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" />
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">GitHub</h3>
+                                    <img src="./assets/img/github.svg" />
+                                </div>
+                            </div>
+
+                            <!-- <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Maven</h3>
+                                    <img src="./assets/img/maven.jpg" />
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tools here  -->
+
+
+
+
+
+                
+                <!-- <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <img src="https://img.icons8.com/color/20/000000/html-5--v1.png" />
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <img src="https://img.icons8.com/color/20/000000/css3.png" />
+                                </div>
+
+                            </div>
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <img src="https://img.icons8.com/color/20/000000/javascript--v2.png" />
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Soft Skills
+                    </h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Communication</h3>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Listening</h3>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Leadership</h3>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Creativity</h3>
+
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-badge-check'></i>
+                                <div>
+                                    <h3 class="skills__name">Problem Solving</h3>
+                                    <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"/> -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Work / Project ===============-->
+        <section class="work section" id="work">
+            <!-- <span class="section__subtitle">My Portfolio</span> -->
+            <h2 class="section__title">Recent Works</h2>
+            <div class="work__filters">
+                <span class="work__item" data-filter=".projects">Projects</span>
+            </div>
+            <div class="work__container container grid">
+
+                <div class="work__card mix projects">
+                    <img src="./assets/img/Game.png" alt="" class="work__img">
+                    <h3 class="work__title">Dice Game</h3>
+
+                    <!-- <p>It is the Dice Game. and it  is</p>
+                    <p> the completely responsive</p>
+                    <p>for all the device.</p>
+                    <p>it mainly use HTML, CSS and JavaScript</p>
+                    <p>The Dice Game is the small project Which</p>
+                    <p>i made individually.</p>
+                    <p>within 2 Days.</p> -->
+
+                    <p id="desc">It is the Dice Game and it is the <br> completely responsive for all the <br> device. it mainly use HTML, CSS <br> and JavaScript The Dice Game <br> is the small project Which i <br> made individually. within 2 Days. </p>
+
+                    <!-- <p class="desc"> It is the Dice Game and it is the completely responsive for all the device. it mainly use HTML, CSS  and JavaScript The Dice Game  is the small project Which i made individually. within 2 Days.</p> -->
+
+                    <p class="bold"> TECH STACKS :</p>
+
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&rs=1&c=1&qlt=95&w=106&h=109"
+                        alt="" title="HTML" class="logos" />
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7Af7fIq_qBZlQKTogILDlgHaG6&pid=Api&P=0" alt="" title="CSS"
+                        class="logos" />
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ&pid=Api&P=0" alt="" title="JavaScript"
+                        class="logos" />
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vz7_8tUPWjssC87owmj88gHaHa&pid=Api&P=0" alt="" title="Netlify"
+                        class="logos" />
+                    <a href="https://dicegamewithborkarchetan.netlify.app/" target="_blank" class="work__button">
+                        Live <i class='bx bx-right-arrow-alt work__icon'></i>
+                        <a href="https://github.com/borkarchetan/PlayDiceGame" target="_blank"
+                            class="button code">Code</a>
+                    </a>
+                </div>
+
+
+                <!-- <div class="work__card mix projects">
+                    <img src="./assets/img/Hindustan Times.png" alt="" class="work__img">
+                    <h3 class="work__title">Website - Hindustan Times</h3>
+
+                    <!-- <p>Hindustan Times is an Indian </p>
+                    <p>English-language daily newspaper.</p>
+                    <p>It played integral roles in the</p>
+                    <p>Indian independence movement as a</p>
+                    <p>nationalist daily.</p>
+                    <p>A collaborative project, built in 5 days,</p>
+                    <p>by a team of 6 developers.</p>
+
+
+                    <p>Hindustan Times is an Indian <br> English-language daily newspaper. <br> It played integral roles in the Indian <br> independence movement as a <br> nationalist daily. A collaborative <br> project, built in 5 days, by a team <br> of 6 developers. </p>
+                    <p class="bold"> TECH STACKS :</p>
+
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&rs=1&c=1&qlt=95&w=106&h=109"
+                        alt="" title="HTML" class="logos" />
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7Af7fIq_qBZlQKTogILDlgHaG6&pid=Api&P=0" alt="" title="CSS"
+                        class="logos" />
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ&pid=Api&P=0" alt="" title="JavaScript"
+                        class="logos" />
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vz7_8tUPWjssC87owmj88gHaHa&pid=Api&P=0" alt="" title="Netlify"
+                        class="logos" />
+                    <a href="https://hindustan-times.netlify.app/" target="_blank" class="work__button">
+                        Live <i class='bx bx-right-arrow-alt work__icon'></i>
+                        <a href="https://github.com/borkarchetan/Project_Hindustantimes" target="_blank"
+                            class="button code">Code</a>
+                    </a>
+                </div>  -->
+
+                <div class="work__card mix projects">
+                    <img src="./assets/img/shop.com.png" alt="" class="work__img">
+                    <h3 class="work__title">Website - Shop.com</h3>
+
+
+
+                    <!-- <p>Shop.comis an E-commerce</p>
+                    <p> platform of goods from </p>
+                    <p> clothing, accessories,</p>
+                    <p>appliances, home-decor, and electronic </p>
+                    <p>gadgets.</p>
+                    <p>A collaborative project, built in 5 days,</p>
+                    <p>by a team of 6 developers.</p> -->
+
+                    <p id="desc">Shop.comis an E-commerce <br> platform of goods from clothing, <br> accessories,appliances, home- <br>decor, and electronic gadgets. <br> A collaborative project, built in <br> 5 days, by a team of 6 developers. </p>
+
+                    <p class="bold"> TECH STACKS :</p>
+
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&rs=1&c=1&qlt=95&w=106&h=109"
+                        alt="" title="HTML" class="logos" />
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7Af7fIq_qBZlQKTogILDlgHaG6&pid=Api&P=0" alt="" title="CSS"
+                        class="logos" />
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ&pid=Api&P=0" alt="" title="JavaScript"
+                        class="logos" />
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vz7_8tUPWjssC87owmj88gHaHa&pid=Api&P=0" alt="" title="Netlify"
+                        class="logos" />
+
+                    <a href="https://cloneshop-com.netlify.app/" target="_blank" class="work__button">
+                        Live <i class='bx bx-right-arrow-alt work__icon'></i>
+                        <a href="https://github.com/tamilarasanr27/MasaiGroupProject" target="_blank"
+                            class="button code">Code</a>
+                    </a>
+                </div>
+                <div class="work__card mix projects">
+                    <img src="./assets/img/niftypm.png" alt="" class="work__img">
+                    <h3 class="work__title">Website - niftypm</h3>
+
+                    <!-- <p>Niftypm is the remote collaboration</p>
+                    <p>hub to manage projects, tasks, and</p>
+                    <p>communications. -all in one place.</p>
+                    <p>Remote work has never been easier,</p>
+                    <p>fun, and more .</p>
+                    <p>A collaborative project, built in 5 days,</p>
+                    <p>by a team of 6 developers.</p> -->
+
+                    <p id="desc">Niftypm is the remote collaboration <br> hub to manage projects, tasks, and <br> communications. -all in one place. <br> Remote work has never been easier, <br> fun, and more . collaborative project, <br> built in 5 days, team of 6 developers.</p>
+
+                    <p class="bold"> TECH STACKS :</p>
+
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.pqcPskVdTrJqfhZ-Z49AtQHaHn&pid=Api&rs=1&c=1&qlt=95&w=106&h=109"
+                        alt="" title="HTML" class="logos" />
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7Af7fIq_qBZlQKTogILDlgHaG6&pid=Api&P=0" alt="" title="CSS"
+                        class="logos" />
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.vF8_h2mXqrGRynymmcJ4zgHaHJ&pid=Api&P=0" alt="" title="JavaScript"
+                        class="logos" />
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vz7_8tUPWjssC87owmj88gHaHa&pid=Api&P=0" alt="" title="Netlify"
+                        class="logos" />
+
+                    <a href="https://bespoke-dragon-42095c.netlify.app/" target="_blank" class="work__button">
+                        Live <i class='bx bx-right-arrow-alt work__icon'></i>
+                        <a href="https://github.com/vinu7461/disillusioned-respect-348/tree/main/disillusioned-respect-3485"
+                            target="_blank" class="button code">Code</a>
+                    </a>
+                </div>
+
+
+                <!-- java project -->
+                
+                <div class="work__card mix projects">
+                    <img src="./assets/img/ShopeZLY.png" alt="" class="work__img">
+                    <h3 class="work__title">Website - SHOPEZLY</h3>
+
+                    <!-- <p>ShopeZLY is the E-Commerce Website</p>
+                    <p>hub to manage projects, tasks, and</p>
+                    <p>communications. -all in one place.</p>
+                    <p>Remote work has never been easier,</p>
+                    <p>fun, and more .</p>
+                    <p>A collaborative project, built in 5 days,</p>
+                    <p>by a team of 6 developers.</p> -->
+
+
+                    <!-- <p id="desc">ShopeZLY is the E-Commerce Website hub to manage projects, tasks, and communications. -all in one place.  Remote work has never been  easier,  fun, and more . collaborative project,  built in 5 days, by a team of 6 developers. </p> -->
+
+                    <p id="desc" >ShopeZLY is the Online Shopping <br> Application Spring Boot project for <br> building RestAPI which is used to <br> handle operations related various <br> modules such as Admin, Customer, <br> Addresses, Orders, Products, etc. </p>
+
+                    <p class="bold"> TECH STACKS :</p>
+
+                    <img src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" title="JAVA"
+                        alt="" class="logos" />
+                    <img src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="" title="MY-SQL"
+                        class="logos" />
+                    <img src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" title="SpringBoot"
+                        class="logos" />
+                    <img src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" title="Hibernet"
+                        class="logos" />
+
+                    <a href="https://drive.google.com/file/d/1ahALoNcITrL8qgGqiTsiSKo_nXjgsCYB/view?usp=share_link" target="_blank" class="work__button">
+                        Live <i class='bx bx-right-arrow-alt work__icon'></i>
+                        <a href="https://github.com/randomFrisby/homely-yarn-5441/"
+                            target="_blank" class="button code">Code</a>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- STATICS -->
+        <section>
+            <!-- <span class="section__subtitle">My Statistics</span> -->
+            <h2 class="section__title">Statistics Section</h2>
+
+            <div class="statics">
+                <div>
+                    <img src="https://github-readme-stats.vercel.app/api?username=borkarchetan&hide_border=false&include_all_commits=false&count_private=false"
+                        alt="">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=borkarchetan&hide_border=false"
+                        alt="">
+                </div>
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=borkarchetan&hide_border=false&include_all_commits=true&count_private=false"
+                    alt="">
+            </div>
+            <div class="work__filters">
+                <span class="work__item" data-filter=".github-calendar">GitHub Calendar</span>
+            </div>
+
+            <!-- ==GitHub CALENDAR== -->
+
+            <div class="calendar">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+            </div>
+        </section>
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <!-- <span class="section__subtitle">Get in Touch</span> -->
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title title__contact">Talk to Me</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bxl-gmail contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">battleshipcomputer@gmail.com</span>
+                            
+                            <a href="mailto:battleshipcomputer@gmail.com"
+                                target="_blank" class="contact__button">
+
+                                Email me <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-github contact__card-icon'></i>
+                            <h3 class="contact__card-title">Github</h3>
+                            <span class="contact__card-data">borkarchetan</span>
+                            <a href="https://github.com/borkarchetan?tab=repositories" target="_blank" class="contact__button">
+                                Check My Repos <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-linkedin contact__card-icon'></i>
+                            <h3 class="contact__card-title">Linkedin</h3>
+                            <span class="contact__card-data">RUPESH GONDRAWAR</span>
+                            <a href="https://www.linkedin.com/in/borkarchetan/" target="_blank"
+                                class="contact__button">
+                                Send Message <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me Anything</h3>
+                    <!-- form start -->
+                    <form action="https://formspree.io/f/mjvzndyy" class="contact__form" id="my-form" method="POST">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name here !"
+                                class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="mail" class="contact__form-tag">Email</label>
+                            <input type="email" id="email" name="mail" placeholder="Enter your Email here !"
+                                class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Description</label>
+                            <textarea type="text" id="message" placeholder="Write me Something !" name="message"
+                                cols="30" rows="10" class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button class="button form__button">Submit</button>
+                    </form>
+                    <!-- form end -->
+                </div>
+            </div>
+
+        </section>
+        <!-- Submit status -->
+        <div id="status"></div>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">RUPESH GONDRAWAR</h1>
+            <ul class="footer__list">
+                <li>
+                    <!-- <a href="#about" class="footer__link">About</a> -->
+                </li>
+                <li>
+                    <!-- <a href="#work" class="footer__link">Projects</a> -->
+                </li>
+                <li>
+                    <!-- <a href="#home" class="footer__link">Read More</a> -->
+                </li>
+            </ul>
+            <ul class="footer__social">
+
+                <!-- whatsapp -->
+                <a href="https://wa.me/+918806997836" title="WhatsApp" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-whatsapp'></i> 
+                </a>
+                <!-- whatsapp -->
+
+
+                <!-- linkedin -->
+                <a href="https://www.linkedin.com/in/borkarchetan/" target="_blank"
+                title="LinkedIn" class="footer__social-link">
+
+                    <i class='bx bxl-linkedin-square'></i> 
+                </a>
+                <!-- linkedin -->
+
+
+                <!-- github -->
+                <a href="https://github.com/rupeshgondrawar" title="GitHub" target="_blank" class="footer__social-link">
+
+                    <i class='bx bxl-github'></i> 
+                </a>
+                <!-- github -->
+
+                <!-- telegram -->
+                <a href="https://t.me/RGondrawar" target="_blank" title="Telegram" class="footer__social-link">
+
+                    <i class='bx bxl-telegram'></i> 
+                </a>
+                <!-- telegram -->
+
+
+
+                <!-- instagram -->
+                <a href="https://www.instagram.com/rupesh_gondrawar" target="_blank" title="Instagram" class="footer__social-link">
+
+                    <i class='bx bxl-instagram'></i> 
+                </a>
+                <!-- instagram -->
+
+
+                <!-- Call me  -->
+                <a href="tel:+917057679279" target="_blank" title="Call Me" class="footer__social-link">
+
+                    <i class='bx bxs-phone-call'></i>
+                </a>
+                <!-- Call me  -->
+
+            </ul>
+            <span class="footer__copy">
+                 <!-- Contact &blacktriangleright; +91 7057679279 <br> -->
+                &cirmid; Nagpur - Maharashtra, <br> &copy; 2022 computerbattleship, <br>
+                &longrightarrow; All Rights Reserved.
+            </span>
+
+
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- =================Form submission ============= -->
+    <script src="assets/js/form.js"></script>
+</body>
+
+</html>
+<script>
+
+    GitHubCalendar(".calendar", "borkarchetan", { responsive: true, global_stats: false });
+
+    // Use a proxy
+
+</script>
+<script>
+    var runredirect = function () {
+        var redirectw1 = window.open('https://drive.google.com/file/d/1tsIjmZIl_cf1g538e7uU9cZ-X75qNXHQ/view');
+        redirectw1.location;
+    }
+</script>
